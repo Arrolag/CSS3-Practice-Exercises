@@ -1,0 +1,125 @@
+/*Assignment 2: Advanced selectors. This code is specially written for desktop screens.*/
+
+
+body {
+	margin: 90px 40px  40px 40px;
+	padding: 3px;
+	font-size: 100%;
+}
+
+header {
+	background-color: #DFE2DB;
+	background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	padding: 40px;
+}
+
+
+h1,h2{
+	color: #191919;
+	text-transform:uppercase;
+}
+
+h1{
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	text-align: center;
+	background-color: #DFE2DB;
+	opacity: 0.6;
+	color: #22264B;
+	width: 15%;
+	margin: 10px;
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.active{
+	background-color: #FFFFFF;
+	color: #000080;
+	opacity: 1;
+}
+
+.left{
+	float: left;
+	display:inline-block;
+	width: 24%;	
+   margin-right: 1%;
+   padding-left: 1%;
+   padding-right: 1%;	
+	background-color: #FCCAD8;
+	
+}
+
+.right{
+	float: right;
+	display:inline-block;
+   width: 68%;
+   margin-left: 1%;
+   margin-right: 1%;
+   padding-left: 1%;
+   padding-right: 1%;
+}
+
+img{
+	display: block;
+	max-width: 90%;
+	max-height: 90%;
+	border: 3px solid #22264B;
+	margin: 0 auto;
+	margin-top: 6px;
+	margin-bottom: 6px; 
+}	
+
+table{
+	margin: 0 auto;
+	font-family: serif , Times;
+	font-size: 11pt;
+	font-weight: lighter;
+	line-height: 120%;
+}
+
+tr{
+	opacity: 0.7;
+}
+
+th{
+	background: #DFE2DB;
+	background: -moz-linear-gradient(#DFE2DB, #7D1935);
+	background: -webkit-linear-gradient(#DFE2DB, #7D1935);
+	background: -ms-linear-gradient(#DFE2DB, #7D1935);
+	background: linear-gradient(#DFE2DB, #7D1935);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-width: thick;
+	font-weight: bold;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+th,td{
+	text-align: center;
+	}
+
+th:nth-child(-n+1),td:first-of-type{
+	text-align: left;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+td{
+	padding-bottom: 4px;
+	padding-top: 4px;
+	border-radius: 2px;
+	background-color: #DFE2DB;
+	color: #191919;
+	border: 1px solid #22264B;
+}
